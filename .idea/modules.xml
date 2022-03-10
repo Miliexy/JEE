@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/JEE.iml" filepath="$PROJECT_DIR$/JEE.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Tp1/Jee.iml" filepath="$PROJECT_DIR$/Tp1/Jee.iml" />
+>>>>>>> 125e238 (Maven)
     </modules>
   </component>
 </project>
