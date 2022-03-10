@@ -9,6 +9,9 @@ public class presentation {
 
     public static void main(String[] args) {
 
+        /*
+        Injection statique 
+        */ 
         //DaoImpl dao = new DaoImpl();
         DaoImplV2 dao = new DaoImplV2();
         MetierImpl metier = new MetierImpl();
