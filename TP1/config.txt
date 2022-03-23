@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 tp1.ext.DaoImplV3
 tp1.metier.MetierImpl
+=======
+dao.DaoImpl 
+metier.MetierImpl
+>>>>>>> 2a91914 (New Commit)
