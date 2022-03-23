@@ -3,16 +3,24 @@ package tp1.presentation;
 import java.io.File;
 import java.io.FileNotFoundException;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 =======
 >>>>>>> 2a91914 (New Commit)
+=======
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+>>>>>>> origin/FixingBranch
 import java.util.Scanner;
 
 import tp1.dao.DaoImpl;
 import tp1.dao.IDao;
 import tp1.ext.DaoImplV2;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/FixingBranch
 import tp1.metier.IMetier;
 import tp1.metier.MetierImpl;
 
@@ -36,6 +44,7 @@ public class presentationDyn {
         Method method = cMetier.getMethod("setDao",IDao.class);
         method.invoke(metier,dao);
         System.out.println("Result = " + metier.calcul());
+<<<<<<< HEAD
 =======
 import tp1.metier.MetierImpl;
 
@@ -51,6 +60,8 @@ public class presentationDyn {
         IDao dao = (IDao) cDao.newInstance();
         System.out.println(daoClassName);
 >>>>>>> 2a91914 (New Commit)
+=======
+>>>>>>> origin/FixingBranch
     }
 }
 

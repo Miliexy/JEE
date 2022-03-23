@@ -13,8 +13,7 @@ public class presentationDyn {
     
 
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
-
-
+        
         Scanner scanner = new Scanner(new File("Tp1\\src\\main\\java\\tp1\\config.txt"));
         String daoClassName=scanner.nextLine();
         Class cDao =Class.forName(daoClassName);
